@@ -26,21 +26,21 @@ render = promisify(render);
 // 当去当前所有项目 列出来, 让用户去选 安装哪个项目
 // 选完显示 version
 
-//  https://api.github.com/orgs/zhu-cli/repos 获取组织下的仓库
+//  https://api.github.com/orgs/xv-town/repos 获取组织下的仓库
  
 // 可能还需要用户配置一些数据 来结合渲染我的项目
 
 // 获取项目仓库列表
 const fetchRepotList = async () => {
-  const { data } = await Axios.get('https://api.github.com/orgs/zhu-cli/repos');
+  const { data } = await Axios.get('https://api.github.com/orgs/xv-town/repos');
   return data;
 }
 const fetchTagList = async (repo) => {
-  const { data } = await Axios.get(`https://api.github.com/repos/zhu-cli/${repo}/tags`);
+  const { data } = await Axios.get(`https://api.github.com/repos/xv-town/${repo}/tags`);
   return data;
 }
 const downloadGitRepo = async (repo, tag) => {
-  let api = `zhu-cli/${repo}`
+  let api = `xv-town/${repo}`
   if (tag) {
     api += `#${tag}`;
   }
