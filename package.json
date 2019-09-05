@@ -1,8 +1,8 @@
 {
   "name": "xv-cli",
   "version": "1.0.0",
-  "private": "<%=private%>",
-  "description": "<%=description%>",
+  "private": false,
+  "description": "xv-cli",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,8 +10,8 @@
   "bin": {
     "xv-cli": "./bin/WWW"
   },
-  "author": "",
-  "license": "<%=license%>",
+  "author": "xiaoYown",
+  "license": "ISC",
   "dependencies": {
     "axios": "^0.19.0",
     "commander": "^3.0.1",
