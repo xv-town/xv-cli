@@ -10,6 +10,13 @@
   "bin": {
     "xv-cli": "./bin/WWW"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xv-town/xv-cli.git"
+  },
+  "keywords": [
+    "xv-cli"
+  ],
   "author": "xiaoYown",
   "license": "ISC",
   "dependencies": {
