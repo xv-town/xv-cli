@@ -1,6 +1,6 @@
 {
   "name": "xv-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "description": "xv-cli",
   "main": "src/main.js",
@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "xv-cli-t": "./bin/WWW"
+    "xv-cli": "./bin/WWW"
   },
   "repository": {
     "type": "git",
