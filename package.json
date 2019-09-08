@@ -1,6 +1,6 @@
 {
   "name": "xv-cli",
-  "version": "1.0.0-beta",
+  "version": "1.0.0",
   "private": false,
   "description": "xv-cli",
   "main": "index.js",
