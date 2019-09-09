@@ -60,7 +60,7 @@ const waiFnLoading = (fn, message) => async (...args) => {
 
 module.exports = async (projectName) => {
   let repos = await waiFnLoading(fetchRepotList, 'fetch template ...')();
-  repos = repos.map(item => item.name);
+  repos = repos.map(item => item.name).filter(name => /template/.test(name));
   // console.log(repos)
   // 1. 选择模板
   let { repo } = await Inquirer.prompt({

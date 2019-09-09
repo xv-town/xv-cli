@@ -1,6 +1,6 @@
 {
   "name": "xv-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "description": "xv-cli",
   "main": "src/main.js",
