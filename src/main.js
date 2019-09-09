@@ -1,6 +1,14 @@
 // 创建 bin 脚本, 配置 package 中 bid
 // npm link
 // npx eslint --init
+
+// - commander: 参数解析
+// - inquirer: 交互式命令行
+// - download-git-repo : 在 git 中下载模板
+// - chalk: 打印颜色
+// - metalsmith: 编译模板
+// - consolidate
+
 // 1.解析用户的参数
 const path = require('path');
 const program = require('commander');
